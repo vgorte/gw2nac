@@ -1,0 +1,284 @@
+{
+  "nav": {
+    "home": "Home",
+    "builds": "Builds",
+    "events": "Events",
+    "resources": "Resources",
+    "members": "Members"
+  },
+  "header": {
+    "guildName": "Ninja Asura Club",
+    "joinDiscord": "Join Discord"
+  },
+  "dashboard": {
+    "home": "Home",
+    "raidSchedule": "Raid Schedule",
+    "allianceRaids": "Alliance Breakfast Raids",
+    "guildRaids": "Guild Raids",
+    "nextEvent": "Next Event",
+    "today": "Today",
+    "tomorrow": "Tomorrow",
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday",
+    "allianceSchedule": "Monday - Friday 8:45 - 10:45 CEST",
+    "guildSchedule": "Thursday & Saturday 20:00 - 22:00 CEST"
+  },
+  "discord": {
+    "serverTitle": "Discord Server",
+    "totalMembers": "Total Members",
+    "onlineNow": "Online Now",
+    "joinDiscord": "Join Discord"
+  },
+  "events": {
+    "allianceBreakfastRaid": "Alliance Breakfast Raid",
+    "guildRaid": "Guild Raid",
+    "noUpcomingEvents": "No upcoming events"
+  },
+  "builds": {
+    "title": "Builds",
+    "description": "Recommended builds for WvW gameplay.",
+    "exampleNotice": "The builds shown below are examples for demonstration purposes. Real builds will be added later.",
+    "viewBuild": "View Build",
+    "placeholderImage": "Image",
+    "comingSoon": "Coming soon...",
+    "classes": {
+      "guardian": {
+        "name": "Guardian",
+        "description": "Heavy armor profession with support and damage capabilities",
+        "roles": {
+          "support": "Support",
+          "damage": "Damage",
+          "heavyArmor": "Heavy Armor"
+        },
+        "builds": {
+          "1": {
+            "name": "Support Firebrand",
+            "specialization": "Firebrand",
+            "role": "Support/Healer",
+            "description": "Heal and quickness support for WvW zergs"
+          },
+          "2": {
+            "name": "DPS Dragonhunter",
+            "specialization": "Dragonhunter",
+            "role": "Ranged DPS",
+            "description": "High damage ranged build with traps"
+          },
+          "3": {
+            "name": "Roaming Willbender",
+            "specialization": "Willbender",
+            "role": "Mobile DPS",
+            "description": "High mobility melee roaming build"
+          }
+        }
+      },
+      "warrior": {
+        "name": "Warrior",
+        "description": "Heavy armor profession focused on physical damage and warrior tactics",
+        "roles": {
+          "meleeDps": "Melee DPS",
+          "frontline": "Frontline",
+          "heavyArmor": "Heavy Armor"
+        },
+        "builds": {
+          "4": {
+            "name": "Zerker DPS",
+            "specialization": "Berserker",
+            "role": "Melee DPS",
+            "description": "High damage berserker mode for frontline"
+          },
+          "5": {
+            "name": "Spellbreaker",
+            "specialization": "Spellbreaker",
+            "role": "Boon Strip",
+            "description": "Anti-magic specialist with boon removal"
+          },
+          "6": {
+            "name": "Core Warrior",
+            "specialization": "Core",
+            "role": "Balanced",
+            "description": "Versatile warrior with banners and utility"
+          }
+        }
+      },
+      "engineer": {
+        "name": "Engineer",
+        "description": "Medium armor profession specializing in technology and gadgets",
+        "roles": {
+          "technology": "Technology",
+          "support": "Support",
+          "mediumArmor": "Medium Armor"
+        },
+        "builds": {
+          "10": {
+            "name": "Scrapper Support",
+            "specialization": "Scrapper",
+            "role": "Support/Gyros",
+            "description": "Gyro support with stealth and resurrection"
+          },
+          "11": {
+            "name": "Holosmith DPS",
+            "specialization": "Holosmith",
+            "role": "Ranged DPS",
+            "description": "High damage with photon forge mechanics"
+          }
+        }
+      },
+      "ranger": {
+        "name": "Ranger",
+        "description": "Medium armor profession with nature magic and animal companions",
+        "roles": {
+          "nature": "Nature",
+          "pets": "Pets",
+          "mediumArmor": "Medium Armor"
+        },
+        "builds": {
+          "18": {
+            "name": "Druid Support",
+            "specialization": "Druid",
+            "role": "Support/Healer",
+            "description": "Nature magic healing and spirit support"
+          },
+          "19": {
+            "name": "Soulbeast DPS",
+            "specialization": "Soulbeast",
+            "role": "Melee DPS",
+            "description": "Merged pet damage specialist"
+          }
+        }
+      },
+      "thief": {
+        "name": "Thief",
+        "description": "Medium armor profession focused on stealth and high mobility",
+        "roles": {
+          "stealth": "Stealth",
+          "mobility": "Mobility",
+          "mediumArmor": "Medium Armor"
+        },
+        "builds": {
+          "15": {
+            "name": "Deadeye Sniper",
+            "specialization": "Deadeye",
+            "role": "Ranged DPS",
+            "description": "Long-range rifle specialist"
+          }
+        }
+      },
+      "elementalist": {
+        "name": "Elementalist",
+        "description": "Light armor profession mastering the four elements",
+        "roles": {
+          "elements": "Elements",
+          "support": "Support",
+          "lightArmor": "Light Armor"
+        },
+        "builds": {
+          "9": {
+            "name": "Tempest Support",
+            "specialization": "Tempest",
+            "role": "Support/Auras",
+            "description": "Aura support and healing for zerg play"
+          }
+        }
+      },
+      "mesmer": {
+        "name": "Mesmer",
+        "description": "Light armor profession specializing in illusions and manipulation",
+        "roles": {
+          "illusions": "Illusions",
+          "utility": "Utility",
+          "lightArmor": "Light Armor"
+        },
+        "builds": {
+          "16": {
+            "name": "Chrono Support",
+            "specialization": "Chronomancer",
+            "role": "Support/Utility",
+            "description": "Boon support with distortion and portals"
+          },
+          "17": {
+            "name": "Mirage Roaming",
+            "specialization": "Mirage",
+            "role": "Mobile DPS",
+            "description": "Evasive condition damage for roaming"
+          }
+        }
+      },
+      "necromancer": {
+        "name": "Necromancer",
+        "description": "Light armor profession specializing in death magic and condition damage",
+        "roles": {
+          "conditions": "Conditions",
+          "support": "Support",
+          "lightArmor": "Light Armor"
+        },
+        "builds": {
+          "7": {
+            "name": "Scourge Support",
+            "specialization": "Scourge",
+            "role": "Support/Barrier",
+            "description": "Barrier support and condition cleanse for large groups"
+          },
+          "8": {
+            "name": "Reaper DPS",
+            "specialization": "Reaper",
+            "role": "Melee DPS",
+            "description": "High burst damage with shroud mechanics"
+          }
+        }
+      },
+      "revenant": {
+        "name": "Revenant",
+        "description": "Heavy armor profession channeling legendary powers",
+        "roles": {
+          "legends": "Legends",
+          "energy": "Energy",
+          "heavyArmor": "Heavy Armor"
+        },
+        "builds": {
+          "12": {
+            "name": "Herald Support",
+            "specialization": "Herald",
+            "role": "Support/Boons",
+            "description": "Facet support with might and protection"
+          },
+          "13": {
+            "name": "Renegade DPS",
+            "specialization": "Renegade",
+            "role": "Ranged DPS",
+            "description": "Condition damage with shortbow"
+          },
+          "14": {
+            "name": "Vindicator Roaming",
+            "specialization": "Vindicator",
+            "role": "Mobile DPS",
+            "description": "High mobility melee roaming build"
+          }
+        }
+      }
+    }
+  },
+  "resources": {
+    "title": "Resources",
+    "description": "Useful links, tools, and community resources."
+  },
+  "language": {
+    "switch": "Switch Language",
+    "german": "Deutsch",
+    "english": "English"
+  },
+  "members": {
+    "title": "Member List",
+    "loading": "Loading members...",
+    "privacyNote": "This is a test visualization - discord bot required otherwise",
+    "username": "Username",
+    "rank": "Rank",
+    "joinDate": "Join Date",
+    "noRole": "No Role",
+    "totalCount": "{{count}} members total"
+  }
+}

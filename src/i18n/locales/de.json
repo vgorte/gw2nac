@@ -1,0 +1,284 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "builds": "Builds",
+    "events": "Events",
+    "resources": "Ressourcen",
+    "members": "Mitglieder"
+  },
+  "header": {
+    "guildName": "Ninja Asura Club",
+    "joinDiscord": "Discord beitreten"
+  },
+  "dashboard": {
+    "home": "Startseite",
+    "raidSchedule": "Raid-Zeitplan",
+    "allianceRaids": "Allianz Frühstücks-Raids",
+    "guildRaids": "Gilden-Raids",
+    "nextEvent": "Nächstes Event",
+    "today": "Heute",
+    "tomorrow": "Morgen",
+    "monday": "Montag",
+    "tuesday": "Dienstag",
+    "wednesday": "Mittwoch",
+    "thursday": "Donnerstag",
+    "friday": "Freitag",
+    "saturday": "Samstag",
+    "sunday": "Sonntag",
+    "allianceSchedule": "Montag - Freitag 8:45 - 10:45 CEST",
+    "guildSchedule": "Donnerstag & Samstag 20:00 - 22:00 CEST"
+  },
+  "discord": {
+    "serverTitle": "Discord Server",
+    "totalMembers": "Mitglieder gesamt",
+    "onlineNow": "Jetzt online",
+    "joinDiscord": "Discord beitreten"
+  },
+  "events": {
+    "allianceBreakfastRaid": "Allianz Frühstücks-Raid",
+    "guildRaid": "Gilden-Raid",
+    "noUpcomingEvents": "Keine anstehenden Events"
+  },
+  "builds": {
+    "title": "Builds",
+    "description": "Empfohlene Builds für WvW-Gameplay.",
+    "exampleNotice": "Die unten gezeigten Builds sind Beispiele zu Demonstrationszwecken. Echte Builds werden später hinzugefügt.",
+    "viewBuild": "Build ansehen",
+    "placeholderImage": "Bild",
+    "comingSoon": "Bald verfügbar...",
+    "classes": {
+      "guardian": {
+        "name": "Wächter",
+        "description": "Schwere Rüstungsklasse mit Unterstützungs- und Schadensfähigkeiten",
+        "roles": {
+          "support": "Unterstützung",
+          "damage": "Schaden",
+          "heavyArmor": "Schwere Rüstung"
+        },
+        "builds": {
+          "1": {
+            "name": "Unterstützungs-Feuerbrand",
+            "specialization": "Feuerbrand",
+            "role": "Unterstützung/Heiler",
+            "description": "Heilung und Schnelligkeit-Unterstützung für WvW-Gruppen"
+          },
+          "2": {
+            "name": "DPS Drachenjäger",
+            "specialization": "Drachenjäger",
+            "role": "Fernkampf-DPS",
+            "description": "Hoher Fernkampfschaden mit Fallen"
+          },
+          "3": {
+            "name": "Roaming Willensbrecher",
+            "specialization": "Willensbrecher",
+            "role": "Mobiler DPS",
+            "description": "Hochmobiler Nahkampf-Roaming-Build"
+          }
+        }
+      },
+      "warrior": {
+        "name": "Krieger",
+        "description": "Schwere Rüstungsklasse mit Fokus auf physischen Schaden und Kriegstaktiken",
+        "roles": {
+          "meleeDps": "Nahkampf-DPS",
+          "frontline": "Frontlinie",
+          "heavyArmor": "Schwere Rüstung"
+        },
+        "builds": {
+          "4": {
+            "name": "Berserker DPS",
+            "specialization": "Berserker",
+            "role": "Nahkampf-DPS",
+            "description": "Hoher Schaden im Berserkermodus für die Frontlinie"
+          },
+          "5": {
+            "name": "Zauberbrecher",
+            "specialization": "Zauberbrecher",
+            "role": "Segen entfernen",
+            "description": "Anti-Magie-Spezialist mit Segenentfernung"
+          },
+          "6": {
+            "name": "Kern-Krieger",
+            "specialization": "Kern",
+            "role": "Ausgewogen",
+            "description": "Vielseitiger Krieger mit Bannern und Nützlichkeit"
+          }
+        }
+      },
+      "engineer": {
+        "name": "Ingenieur",
+        "description": "Mittlere Rüstungsklasse spezialisiert auf Technologie und Geräte",
+        "roles": {
+          "technology": "Technologie",
+          "support": "Unterstützung",
+          "mediumArmor": "Mittlere Rüstung"
+        },
+        "builds": {
+          "10": {
+            "name": "Schrotter Unterstützung",
+            "specialization": "Schrotter",
+            "role": "Unterstützung/Gyros",
+            "description": "Gyro-Unterstützung mit Tarnung und Wiederbelebung"
+          },
+          "11": {
+            "name": "Holoschmied DPS",
+            "specialization": "Holoschmied",
+            "role": "Fernkampf-DPS",
+            "description": "Hoher Schaden mit Photonenesse-Mechaniken"
+          }
+        }
+      },
+      "ranger": {
+        "name": "Waldläufer",
+        "description": "Mittlere Rüstungsklasse mit Naturmagie und Tiergefährten",
+        "roles": {
+          "nature": "Natur",
+          "pets": "Tiergefährten",
+          "mediumArmor": "Mittlere Rüstung"
+        },
+        "builds": {
+          "18": {
+            "name": "Druide Unterstützung",
+            "specialization": "Druide",
+            "role": "Unterstützung/Heiler",
+            "description": "Naturmagie-Heilung und Geisterunterstützung"
+          },
+          "19": {
+            "name": "Seelenbestie DPS",
+            "specialization": "Seelenbestie",
+            "role": "Nahkampf-DPS",
+            "description": "Verschmolzener Tier-Schaden-Spezialist"
+          }
+        }
+      },
+      "thief": {
+        "name": "Dieb",
+        "description": "Mittlere Rüstungsklasse mit Fokus auf Tarnung und hohe Mobilität",
+        "roles": {
+          "stealth": "Tarnung",
+          "mobility": "Mobilität",
+          "mediumArmor": "Mittlere Rüstung"
+        },
+        "builds": {
+          "15": {
+            "name": "Todesschütze Scharfschütze",
+            "specialization": "Todesschütze",
+            "role": "Fernkampf-DPS",
+            "description": "Weitreichender Gewehr-Spezialist"
+          }
+        }
+      },
+      "elementalist": {
+        "name": "Elementarmagier",
+        "description": "Leichte Rüstungsklasse die die vier Elemente beherrscht",
+        "roles": {
+          "elements": "Elemente",
+          "support": "Unterstützung",
+          "lightArmor": "Leichte Rüstung"
+        },
+        "builds": {
+          "9": {
+            "name": "Sturm Unterstützung",
+            "specialization": "Sturm",
+            "role": "Unterstützung/Auren",
+            "description": "Auren-Unterstützung und Heilung für Gruppenspiel"
+          }
+        }
+      },
+      "mesmer": {
+        "name": "Mesmer",
+        "description": "Leichte Rüstungsklasse spezialisiert auf Illusionen und Manipulation",
+        "roles": {
+          "illusions": "Illusionen",
+          "utility": "Nützlichkeit",
+          "lightArmor": "Leichte Rüstung"
+        },
+        "builds": {
+          "16": {
+            "name": "Chrono Unterstützung",
+            "specialization": "Chronomant",
+            "role": "Unterstützung/Nützlichkeit",
+            "description": "Segen-Unterstützung mit Verzerrung und Portalen"
+          },
+          "17": {
+            "name": "Luftspiegelung Roaming",
+            "specialization": "Luftspiegelung",
+            "role": "Mobiler DPS",
+            "description": "Ausweichender Zustandsschaden fürs Roaming"
+          }
+        }
+      },
+      "necromancer": {
+        "name": "Nekromant",
+        "description": "Leichte Rüstungsklasse spezialisiert auf Todesmagie und Zustandsschaden",
+        "roles": {
+          "conditions": "Zustände",
+          "support": "Unterstützung",
+          "lightArmor": "Leichte Rüstung"
+        },
+        "builds": {
+          "7": {
+            "name": "Geißel Unterstützung",
+            "specialization": "Geißel",
+            "role": "Unterstützung/Barriere",
+            "description": "Barriere-Unterstützung und Zustandsreinigung für große Gruppen"
+          },
+          "8": {
+            "name": "Schnitter DPS",
+            "specialization": "Schnitter",
+            "role": "Nahkampf-DPS",
+            "description": "Hoher Burst-Schaden mit Hüllen-Mechaniken"
+          }
+        }
+      },
+      "revenant": {
+        "name": "Widergänger",
+        "description": "Schwere Rüstungsklasse die legendäre Kräfte kanälisiert",
+        "roles": {
+          "legends": "Legenden",
+          "energy": "Energie",
+          "heavyArmor": "Schwere Rüstung"
+        },
+        "builds": {
+          "12": {
+            "name": "Herold Unterstützung",
+            "specialization": "Herold",
+            "role": "Unterstützung/Segen",
+            "description": "Facetten-Unterstützung mit Stärke und Schutz"
+          },
+          "13": {
+            "name": "Abtrünniger DPS",
+            "specialization": "Abtrünniger",
+            "role": "Fernkampf-DPS",
+            "description": "Zustandsschaden mit Kurzbogen"
+          },
+          "14": {
+            "name": "Rächer Roaming",
+            "specialization": "Rächer",
+            "role": "Mobiler DPS",
+            "description": "Hochmobiler Nahkampf-Roaming-Build"
+          }
+        }
+      }
+    }
+  },
+  "resources": {
+    "title": "Ressourcen",
+    "description": "Nützliche Links, Tools und Community-Ressourcen."
+  },
+  "language": {
+    "switch": "Sprache wechseln",
+    "german": "Deutsch",
+    "english": "English"
+  },
+  "members": {
+    "title": "Mitgliederliste",
+    "loading": "Lade Mitglieder...",
+    "privacyNote": "Das ist eine Test-Visualisierung - Discord-Bot benötigt",
+    "username": "Benutzername",
+    "rank": "Rang",
+    "joinDate": "Beitrittsdatum",
+    "noRole": "no role",
+    "totalCount": "{{count}} Mitglieder insgesamt"
+  }
+}

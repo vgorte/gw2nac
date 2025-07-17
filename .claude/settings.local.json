@@ -1,0 +1,33 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir:*)",
+      "Bash(ls:*)",
+      "Bash(find:*)",
+      "WebFetch(domain:nac-wvw.eu)",
+      "Bash(npm create:*)",
+      "Bash(npx create-vite:*)",
+      "Bash(xcopy:*)",
+      "Bash(rmdir:*)",
+      "Bash(robocopy:*)",
+      "Bash(move temp-project*.* .)",
+      "Bash(move temp-projectsrc .)",
+      "Bash(move temp-projectpublic .)",
+      "Bash(mv:*)",
+      "Bash(rm:*)",
+      "Bash(npm install:*)",
+      "Bash(npx tailwindcss init:*)",
+      "Bash(mkdir:*)",
+      "Bash(npm run dev:*)",
+      "Bash(npm uninstall:*)",
+      "WebFetch(domain:hardstuck.gg)",
+      "WebFetch(domain:discord.gg)",
+      "WebFetch(domain:discord.com)",
+      "Bash(npm run build:*)",
+      "Bash(npm run lint)",
+      "WebFetch(domain:github.com)",
+      "Bash(curl:*)"
+    ],
+    "deny": []
+  }
+}
